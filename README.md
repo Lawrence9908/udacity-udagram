@@ -46,3 +46,19 @@ Prevent requests without valid authentication headers.
 
 Add your own domain name and have it point to the running services (try adding a subdomain name to point to the processing server)
 > !NOTE: Domain names are not included in AWS’ free tier and will incur a cost.
+# LINK(URL)
+> URL FOR A RUNNING ELASTIC BEANSTALK DEPLOYEMNT
+```
+http://udacity-udagram2-dev.us-west-2.elasticbeanstalk.com/
+```
+> INVALID IMAGE URL
+```
+http://udacity-udagram2-dev.us-west-2.elasticbeanstalk.com/filteredimage?image_url=""
+```
+>VALID IMAGE URL
+```
+http://udacity-udagram2-dev.us-west-2.elasticbeanstalk.com/filteredimage?image_url=https://www.seiu1000.org/sites/main/files/imagecache/hero/main-images/camera_lense_0.jpeg
+```
+# AWS EB DASHBOARD
+> A screenshot of the elastic beanstalk application dashboard after deployement
+<img src="Deployment.png"/>
